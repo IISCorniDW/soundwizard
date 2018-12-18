@@ -1,0 +1,19 @@
+<diagram program="umletino" version="14.3.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>280</x><y>209</y><w>210</w><h>280</h></coordinates><panel_attributes>+ Sintetizzatore
+Package::Synth
+--
+    - SYNT: Synthesizer
+    - seq: Sequencer
+    - BANK: Soundbank
+    +Strumenti: instrument[]
+    +CANALI: MidiChannel[] 
+    - SA: int
+--
+setupSintetizzatore()
+allnull()
+void setStrumento(int str,int can)
+void cambiaCanale(int can)
+public void suona(int nota,int tempo)
+--
+Responsibilities
+-- Genereare un suono
+-- Essere modulabile</panel_attributes><additional_attributes></additional_attributes></element></diagram>
